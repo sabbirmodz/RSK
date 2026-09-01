@@ -139,7 +139,7 @@
 <div class="container">
     <div id="mainContainer">
         <div class="key-icon">
-            <img src="./assets/logo.png" alt="UKM">
+            <img src="https://i.ibb.co/sMQb47b/817c3c54a7ac.png" alt="RSK">
         </div>
 
         <h1>Access Unlocked</h1>
@@ -220,7 +220,7 @@
             segments.push(s);
         }
 
-        const finalKey = "UKM-" + segments.join("-");
+        const finalKey = "RSK-" + segments.join("-");
         document.getElementById('finalKey').innerText = finalKey;
 
     } catch (err) {
@@ -236,7 +236,7 @@
 
         navigator.clipboard.writeText(keyText).then(() => {
             const btn = document.getElementById('copyBtn');
-            btn.innerText = "COPIED SUCCESSFULLY! ✅";
+            btn.innerText = "COPIED SUCCESSFULLY!";
             btn.style.background = "#00ff88";
             setTimeout(() => { 
                 btn.innerText = "COPY TO CLIPBOARD"; 
